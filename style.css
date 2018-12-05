@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+
+
+.HeaderBox {
+    background-color:#ebebeb;
+    font: italic;
+    text-align: center;
+    color:black;
+    font-size: 26px;
+    width: 960px;
+}
+.HeaderBox p {
+    text-align: left;
+    font-size: 18px;
+    color: black;
+}
+
+.navbar {
+    background-color: #777;
+    font-size: 36px;
+    color: white;
+    width: 960px;
+    text-align: center;
+    overflow: auto;
+    
+}
+   
+.navbar a:hover {
+    background-color: yellow;
+   
+}
+
+.warning {
+    position: fixed;
+    top: 230px;
+    left: 515px;
+    width:445px;
+    height: 305px;
+    padding: 5px;
+    border-style: 4px, solid, black;
+    background-color: #ebebeb;
+}
+.warning h1 {
+    text-align: center;
+}
+.Mysection {
+    position: fixed;
+    top: 211px;
+    left: -7px;
+    width: 495px;
+    background-color: #ebebeb;
+    margin: 19px;
+    height: 315px;
+    float: left;
+}
+.Mysection h1 {
+    text-align: center;
+}
+.sample {
+    background-color: #777;
+    width: 445px;
+    height: 240px;
+}
+.sample h1 {
+    text-align: center;
+}
