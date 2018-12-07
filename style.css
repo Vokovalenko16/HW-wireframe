@@ -1,12 +1,13 @@
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    
+    width:960px;
+    color: #777;
 }
 
 
 .HeaderBox {
+    position: relative;
     background-color:#ebebeb;
-    font: italic;
     text-align: center;
     color:black;
     font-size: 26px;
@@ -21,11 +22,13 @@ body {
 .navbar {
     background-color: #777;
     font-size: 36px;
+    padding: 15px;
     color: white;
-    width: 960px;
     text-align: center;
-    overflow: auto;
     
+}
+.navbar a {
+    text-decoration: none;
 }
    
 .navbar a:hover {
@@ -34,36 +37,62 @@ body {
 }
 
 .warning {
-    position: fixed;
-    top: 230px;
-    left: 515px;
+    float: right;
     width:445px;
-    height: 305px;
-    padding: 5px;
-    border-style: 4px, solid, black;
+    height: 315px;
+    margin-top: 15px;
     background-color: #ebebeb;
+    font-size: 18px;
 }
 .warning h1 {
     text-align: center;
 }
 .Mysection {
-    position: fixed;
-    top: 211px;
-    left: -7px;
     width: 495px;
     background-color: #ebebeb;
-    margin: 19px;
+    margin-top: 15px;
     height: 315px;
-    float: left;
+    position: relative;
 }
 .Mysection h1 {
     text-align: center;
 }
 .sample {
     background-color: #777;
-    width: 445px;
+    width: 425px;
     height: 240px;
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    color: #ebebeb;
 }
 .sample h1 {
+    text-align: center;
+}
+.title {
+    position:absolute;
+    background-color: #ebebeb;
+    padding:20px 130px 20px 130px;
+    left:20px;
+    right:20px;
+    z-index: 3;
+    color: #777;
+
+}
+.print {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    background-color: #ebebeb;
+   height: 60px;
+   width: 380px;
+    text-align: center;
+}
+
+.End {
+    background-color: #777;
+    font-size: 28px;
+    padding: 10px;
+    color: white;
     text-align: center;
 }
