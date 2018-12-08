@@ -7,6 +7,7 @@ body {
 
 .HeaderBox {
     position: relative;
+    margin-left: 300px;
     background-color:#ebebeb;
     text-align: center;
     color:black;
@@ -21,8 +22,10 @@ body {
 
 .navbar {
     background-color: #777;
+    padding: 20px 0px 20px 0px;
+    margin-left: 300px;
     font-size: 36px;
-    padding: 15px;
+    width: 960px;
     color: white;
     text-align: center;
     
@@ -37,12 +40,13 @@ body {
 }
 
 .warning {
-    float: right;
     width:445px;
     height: 315px;
     margin-top: 20px;
+    margin-left: 815px;
     background-color: #ebebeb;
     font-size: 18px;
+    position: absolute;
 }
 .warning h1 {
     text-align: center;
@@ -53,6 +57,7 @@ body {
     margin-top: 15px;
     height: 315px;
     position: relative;
+    margin-left: 300px;
 }
 .Mysection h1 {
     text-align: center;
@@ -93,10 +98,11 @@ body {
     background-color: #777;
     font-size: 28px;
     height: 80px;
-    padding: 10px;
     background-color: #ebebeb;
     text-align: center;
     margin-top: 20px;
+    margin-left: 300px;
+    width: 960px;
 }
 .End p {
     font-size: 20px;
