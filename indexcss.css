@@ -92,8 +92,12 @@ body {
 .End {
     background-color: #777;
     font-size: 28px;
+    height: 80px;
     padding: 10px;
-    color: white;
+    background-color: #ebebeb;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 20px;
+}
+.End p {
+    font-size: 20px;
 }
